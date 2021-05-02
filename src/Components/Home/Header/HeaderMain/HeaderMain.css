@@ -1,0 +1,32 @@
+.Header-main{
+    width: 100%;
+    height: 80vh;
+    color: #fff;
+}
+.Header-main h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.Header-main a{
+    color: #000;
+    text-decoration: none;
+}
+.Header-main a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.Header-main button{
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    border-radius: 40px;
+}
+.header-main-row{
+    height: 100%;
+}
+.header-main-col{
+    height: 100%;
+}

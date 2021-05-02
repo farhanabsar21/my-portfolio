@@ -1,0 +1,31 @@
+.AboutSummary{
+    height: 700px;
+    position: relative;
+}
+
+.AboutSummary img{
+    height: 200px;
+}
+.AboutSummary h2{
+    font-size: 40px;
+}
+.AboutSummary button{
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+@media only screen and (max-width: 768px){
+    .AboutSummary{
+        height: auto;
+        padding: 5rem 0;
+    }
+    .AboutSummary img{
+        margin-top: 4rem;
+        height: 150px;
+    }
+}

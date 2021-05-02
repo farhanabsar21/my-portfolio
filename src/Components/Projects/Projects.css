@@ -1,0 +1,36 @@
+.all-projects{
+    background-color: black;
+    padding: 1rem;
+}
+.all-projects h4{
+    font-size: 30px;
+}
+.all-projects h6{
+    font-weight: 600;
+}
+.project-detail{
+    border-radius: 15px;
+}
+.code-link a{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+.code-link a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.screenshots img{
+    border-radius: 15px;
+    
+}
+
+@media only screen and (max-width: 768px){
+    .code-link a{
+        display: block;
+        margin-top: 10px;
+    }
+}

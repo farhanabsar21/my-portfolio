@@ -1,0 +1,37 @@
+.ProjectSummary{
+    height: 700px;
+    background-color: black;
+}
+.project-container{
+    height: 80%;
+}
+.project-card-details{
+    border: none;
+    border-radius: 15px;
+}
+.project-card-details img{
+    height: 250px;
+}
+
+.ProjectSummary button{
+    padding: 10px 30px;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+@media only screen and (max-width: 768px){
+    .ProjectSummary{
+        height: auto;
+        padding: 5rem;
+    }
+    .project-card-details{
+        margin-top: 20px;
+    }
+    .ProjectSummary button{
+        margin-top: 20px;
+    }
+}
