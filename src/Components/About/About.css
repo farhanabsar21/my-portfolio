@@ -11,7 +11,22 @@
     width: 500px;
     height: 500px;
 }
-
+.about-skill-container{
+    color: black;
+    border-radius: 15px;
+}
+.about-skill-container ul li{
+    list-style-type: none;
+}
+.about-skill-container h5{
+    color: #666;
+}
+.about-skill-container p{
+    font-weight: 600;
+}
+.skills-border{
+    border-bottom: 1px solid #999;
+}
 @media only screen and (max-width: 768px){
     .my-img img{
         width: 250px;

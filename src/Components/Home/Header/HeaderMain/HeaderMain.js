@@ -27,9 +27,9 @@ const HeaderMain = () => {
                     </div>
                     <div className="col-md-6 d-flex align-items-end justify-content-end">
                         <section>
-                            <a href="https://www.facebook.com/farhan.chester/"><FontAwesomeIcon className="mx-2" icon={faFacebook} color="white" size="2x"/></a>
+                            <a href="https://www.facebook.com/farhanabsartafader/"><FontAwesomeIcon className="mx-2" icon={faFacebook} color="white" size="2x"/></a>
                             <a href="https://github.com/farhanabsar21"><FontAwesomeIcon className="mx-2" icon={faGithub} color="white" size="2x"/></a>
-                            <a href="https://www.linkedin.com/in/farhan-absar-tafader-66b2541b3/"><FontAwesomeIcon className="mx-2" icon={faLinkedin} color="white" size="2x"/></a>
+                            <a href="https://www.linkedin.com/in/farhanabsartafader/"><FontAwesomeIcon className="mx-2" icon={faLinkedin} color="white" size="2x"/></a>
                         </section>
                     </div>
                 </div>

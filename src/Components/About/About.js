@@ -2,8 +2,7 @@ import React from 'react';
 import Navbar from '../Shared/Navbar/Navbar';
 import "./About.css";
 import myImg from "../../Images/myImg.png";
-import cvOne from "../../Images/digital-1.jpg";
-import cvTwo from "../../Images/digital-2.jpg";
+import logos from "../../Images/logos.jpg";
 
 const About = () => {
     return (
@@ -33,11 +32,27 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container">
+                <div className="container bg-white about-skill-container p-5">
                     <div className="row">
-                        <div className="col-md-12">
-                            <img src={cvOne} alt="myCV" className="img-fluid"/>
-                            <img src={cvTwo} alt="myCV" className="img-fluid"/>
+                        <div className="col-md-6">
+                            <div className="skills-border pb-3">
+                                <h2>My Skills</h2>
+                                <ul>
+                                    <li><h5>Core Skills:</h5> <p>React Js, MERN Stack, JavaScript (ES6), CSS, SASS, HTML5</p></li>
+                                    <li><h5>Comfortable:</h5> <p>Redux, Next Js, Gatsby, Typescript</p></li>
+                                    <li><h5>Frameworks:</h5> <p>Bootstrap, Tailwind, Material UI</p></li>
+                                    <li><h5>Deployment:</h5> <p>Firebase, Netlify, Heroku, Docker </p></li>
+                                    <li><h5>Design Software:</h5><p>Photoshop, Illustrator, XD, Figma</p></li>
+                                </ul>
+                            </div>
+                            <div className="pt-3">
+                                <h2>My Education</h2>
+                                <p>Currently I'm studying Bachelor in International Relations</p>
+                                <p>University of Dhaka</p>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <img src={logos} alt="logos" className="img-fluid"/>
                         </div>
                     </div>
                 </div>
