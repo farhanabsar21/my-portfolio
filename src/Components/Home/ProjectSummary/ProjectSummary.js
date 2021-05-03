@@ -3,6 +3,7 @@ import "./ProjectSummary.css";
 import roasterImg from "../../../Images/firstProject/roaster-home.png";
 import doinikImg from "../../../Images/secondProject/doinik-bazar-home.png";
 import liverpoolImg from "../../../Images/thirdProject/liverpool-home.png";
+import { Link } from 'react-router-dom';
 
 const ProjectSummary = () => {
     return (
@@ -41,7 +42,7 @@ const ProjectSummary = () => {
                     </div>
                 </div>
                 <div>
-                    <button>Show Details</button>
+                    <Link to="/projects"><button>Show Details</button></Link>
                 </div>
            </div>
        </section>
