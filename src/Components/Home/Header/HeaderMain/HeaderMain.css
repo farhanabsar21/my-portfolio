@@ -4,8 +4,9 @@
     color: #fff;
 }
 .Header-main h1{
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .Header-main a{
     color: #000;
@@ -29,4 +30,13 @@
 }
 .header-main-col{
     height: 100%;
+}
+.social-links a{
+    margin-left: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Header-main h1{
+        font-size: 65px;
+    }
 }
